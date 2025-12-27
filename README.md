@@ -21,7 +21,7 @@ python py/demo.py
 > Change CLIENT_ID, CLIENT_SECRET, and query to match your environment.
 
 Folder Layout 
-
+```
 quickbooks-tools/ 
 ├── py/ 
 │ ├── demo.py # Full example above 
@@ -31,3 +31,4 @@ quickbooks-tools/
 │ └── QboInventoryQuery.cs # .NET Lambda-ready version 
 └── utils/ 
   └── encryption.py # Fernet wrapper for token security MIT Licensed • Built by For Upwork, prototypes, or internal tools — ship fast, stay clean.
+
